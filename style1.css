@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+.header a {
+  float: right;
+}
+path#Fill-14 {
+  fill: red;
+}
+.step-logo-container {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: white;
+  /* border: 2px solid red; */
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  font-size: 16px;
+}
+.step-logo-container img {
+  margin-top: 10px;
+  height: auto;
+  width: 100%;
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: px;
+}
+.button button {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  border: none;
+  color: white;
+  background-color: red;
+  font-size: 24px;
+  padding: 20.5px 48px;
+  margin-bottom: 150px;
+}
+footer {
+  background-color: #f4f4f4;
+  padding: 10px;
+  color: gray;
+  text-align: left;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.text {
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  grid-column: span 4;
+}
+footer a {
+  color: grey;
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  text-align: left;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.language {
+  position: relative;
+  width: 200px;
+}
+.language select {
+  /* appearance: none; */
+  /* -webkit-appearance: none; */
+  /* -moz-appearance: none; */
+  background: url("images/Globe_icon.svg.png") no-repeat left center;
+  background-position: 10px center;
+  background-size: 20px;
+  border: 1px solid gray;
+  /* border-radius: 5px; */
+  /* padding: 10px; */
+  padding: 10px 30px 10px 10px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  color: gray;
+  background-position: calc(100% - 30px) center;
+}
+.language select:focus {
+  border: 2px solid black;
+}
+.language_name {
+  margin-left: 90px;
+}
